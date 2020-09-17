@@ -1,0 +1,179 @@
+.button-upload{
+    background-color: #ae144f;
+    border-radius: 0;
+    overflow: hidden;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-size: inherit;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 1rem 50px;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+    
+}
+.button-upload:hover{
+    background-color: #ee6d9e;
+}
+
+.button-upload span {
+    display: inline-block;
+    height: 100%;
+    transition: all 0.3s;
+    width: 100%;
+}
+.button-upload::before {
+    color: #fff;
+    content: "\1F355";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 130%;
+    height: 100%;
+    left: 0;
+    line-height: 2.6;
+    position: absolute;
+    top: -180%;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+
+
+
+
+.btn {
+    background: transparent;
+    width: 200px;
+    position: relative;
+    padding: 15px;
+    color: #1ECD97;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    border-radius: 4px;
+    font-weight: 600;
+    overflow: hidden;
+    border: 2px solid #1ECD97;
+    text-decoration: none;
+  }
+  
+  /* In Progress Button */
+  .btn-progress {
+    width: 500px;
+    color: transparent;
+  }
+  
+  .btn-fill:after {
+    content: '';
+    background: #1ECD97;
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: 0;
+    display: block;
+    animation: fill 3.2s linear forwards;
+  }
+  
+  /* Button Complete */
+  .btn-complete {
+    padding: 10px;
+    width: 50px;
+    color: #fff;
+    pointer-events: none;
+  }
+  
+  .btn-complete:after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    color: #fff;
+    height: 100%;
+    padding-left: 3px;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1ECD97;
+  }
+  
+  /* Animation */
+  @keyframes fill {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+  
+
+
+
+
+
+
+
+  [type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
+  [type="file"] + label {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-size: inherit;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 1rem 50px;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+  }
+  [type="file"] + label:hover {
+    background-color: #d3460d;
+  }
+
+  [type="file"] + label.btn-3 {
+    background-color: #ee6d9e;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  [type="file"] + label.btn-3 span {
+    display: inline-block;
+    height: 100%;
+    transition: all 0.3s;
+    width: 100%;
+  }
+  [type="file"] + label.btn-3::before {
+    color: #fff;
+    content: "\1F355";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 130%;
+    height: 100%;
+    left: 0;
+    line-height: 2.6;
+    position: absolute;
+    top: -180%;
+    transition: all 0.3s;
+    width: 100%;
+  }
+  [type="file"] + label.btn-3:hover {
+    background-color: #ae144f;
+  }
+  [type="file"] + label.btn-3:hover span {
+    transform: translateY(300%);
+  }
+  [type="file"] + label.btn-3:hover::before {
+    top: 0;
+  }
+
+  
+  

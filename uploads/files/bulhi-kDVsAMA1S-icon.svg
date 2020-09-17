@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="47.588mm" height="52.085mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7882 8627"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#2B2A29;fill-rule:nonzero}
+    .fil1 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil2 {fill:#FFED00;fill-rule:nonzero}
+    .fil8 {fill:#FFEE00;fill-rule:nonzero}
+    .fil11 {fill:#FFEE02;fill-rule:nonzero}
+    .fil13 {fill:#FFEE0A;fill-rule:nonzero}
+    .fil15 {fill:#FFEE0F;fill-rule:nonzero}
+    .fil17 {fill:#FFEE17;fill-rule:nonzero}
+    .fil19 {fill:#FFEE1F;fill-rule:nonzero}
+    .fil21 {fill:#FFEE25;fill-rule:nonzero}
+    .fil23 {fill:#FFEE2D;fill-rule:nonzero}
+    .fil25 {fill:#FFEF31;fill-rule:nonzero}
+    .fil27 {fill:#FFEF35;fill-rule:nonzero}
+    .fil29 {fill:#FFEF39;fill-rule:nonzero}
+    .fil31 {fill:#FFEF3E;fill-rule:nonzero}
+    .fil33 {fill:#FFEF41;fill-rule:nonzero}
+    .fil35 {fill:#FFEF46;fill-rule:nonzero}
+    .fil37 {fill:#FFEF4A;fill-rule:nonzero}
+    .fil39 {fill:#FFF04D;fill-rule:nonzero}
+    .fil41 {fill:#FFF051;fill-rule:nonzero}
+    .fil43 {fill:#FFF055;fill-rule:nonzero}
+    .fil45 {fill:#FFF057;fill-rule:nonzero}
+    .fil44 {fill:#FFF05B;fill-rule:nonzero}
+    .fil42 {fill:#FFF15F;fill-rule:nonzero}
+    .fil40 {fill:#FFF161;fill-rule:nonzero}
+    .fil38 {fill:#FFF164;fill-rule:nonzero}
+    .fil36 {fill:#FFF168;fill-rule:nonzero}
+    .fil34 {fill:#FFF16A;fill-rule:nonzero}
+    .fil32 {fill:#FFF26E;fill-rule:nonzero}
+    .fil30 {fill:#FFF271;fill-rule:nonzero}
+    .fil28 {fill:#FFF273;fill-rule:nonzero}
+    .fil26 {fill:#FFF276;fill-rule:nonzero}
+    .fil24 {fill:#FFF278;fill-rule:nonzero}
+    .fil22 {fill:#FFF37C;fill-rule:nonzero}
+    .fil20 {fill:#FFF37F;fill-rule:nonzero}
+    .fil18 {fill:#FFF381;fill-rule:nonzero}
+    .fil16 {fill:#FFF384;fill-rule:nonzero}
+    .fil14 {fill:#FFF387;fill-rule:nonzero}
+    .fil12 {fill:#FFF389;fill-rule:nonzero}
+    .fil10 {fill:#FFF48C;fill-rule:nonzero}
+    .fil9 {fill:#FFF48F;fill-rule:nonzero}
+    .fil7 {fill:#FFF491;fill-rule:nonzero}
+    .fil6 {fill:#FFF494;fill-rule:nonzero}
+    .fil5 {fill:#FFF597;fill-rule:nonzero}
+    .fil4 {fill:#FFF598;fill-rule:nonzero}
+    .fil3 {fill:#FFF59B;fill-rule:nonzero}
+   ]]>
+  </style>
+      <clipPath id="id0" style="clip-rule:nonzero">
+       <path d="M3359 2824l-286 142c152,512 390,1130 715,1852 438,972 467,957 783,1522 134,-271 158,-340 261,-575l635 -1440c247,-578 419,-1029 516,-1359l-1233 -142 0 -40 2414 0 0 32 -740 150c-159,235 -391,702 -698,1397l-1382 3134c-196,437 -343,815 -445,1130l-57 0c-156,-426 -323,-832 -499,-1215l-1294 -2882c-241,-540 -512,-1064 -813,-1571l-717 -135 0 -40 2840 0 0 40z"/>
+      </clipPath>
+      <clipPath id="id1" style="clip-rule:nonzero">
+       <path d="M1520 2975l2236 4991 420 -988 -1628 -4003 -1028 0zm1830 -107l-274 136c145,492 374,1085 686,1778l544 1209c50,110 -272,-605 207,253 130,-261 152,-327 251,-552l609 -1383c238,-555 403,-988 496,-1305l-1183 -136 0 -38 2317 0 0 30 -710 144c-153,226 -376,674 -670,1342l-1328 3008c-188,420 -329,782 -426,1085l-55 0c-150,-409 -310,-799 -479,-1166l-1242 -2767c-232,-519 -492,-1021 -781,-1509l-688 -129 0 -38 2726 0 0 38z"/>
+      </clipPath>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_593401680">
+   <path class="fil0" d="M757 2467l0 -874c0,-224 -7,-481 -23,-770 -14,-290 -34,-517 -56,-683l-678 -99 0 -29 1857 0c353,0 634,70 844,210 210,141 356,301 437,481 81,180 122,335 122,465 0,180 -41,339 -122,480 -81,140 -187,251 -318,334 -131,83 -266,133 -402,148l0 11c129,51 235,118 320,203 66,67 142,159 226,279 85,120 197,283 336,490 140,207 252,369 337,486 85,117 163,212 234,286 158,157 315,236 469,236l0 29 -491 0c-275,0 -494,-83 -656,-248 -64,-65 -127,-140 -191,-228 -63,-87 -163,-231 -299,-431 -137,-199 -252,-364 -345,-494 -94,-130 -167,-223 -222,-277 -81,-81 -156,-135 -222,-163 -67,-27 -165,-40 -295,-40 -119,0 -212,7 -278,20 -11,101 -16,214 -16,339l0 523c0,220 23,511 70,872l704 98 0 29 -2099 0 0 -29 664 -98c28,-190 51,-458 67,-802 18,-344 26,-596 26,-754zm562 -1293l0 464c0,164 6,316 17,457 73,12 180,18 319,18 242,0 436,-42 584,-125 148,-83 254,-191 316,-323 64,-133 95,-279 95,-437 0,-156 -30,-300 -92,-432 -60,-132 -140,-243 -237,-335 -97,-92 -205,-162 -325,-212 -120,-50 -237,-74 -352,-74 -109,0 -195,6 -258,22 -16,109 -32,265 -46,469 -15,203 -21,373 -21,508zm1017 1403l614 890c147,208 278,358 393,448 114,88 250,135 407,137l0 -29c-149,-43 -340,-235 -574,-573l-491 -706c-106,-155 -205,-272 -297,-351 -93,-79 -206,-132 -340,-158l-12 22c107,68 206,175 300,320zm-1508 -2454l0 3917 202 0 0 -3917 -202 0zm773 -48l0 28c259,6 475,69 650,188 173,120 301,267 380,440 79,173 118,345 118,514 0,377 -164,649 -492,817l18 11c192,-49 351,-153 477,-313 126,-161 188,-352 188,-574 0,-173 -33,-330 -102,-471 -67,-140 -159,-258 -276,-351 -116,-95 -246,-166 -389,-215 -143,-50 -288,-74 -433,-74l-139 0zm2844 -75l1961 0c316,0 561,29 738,86 178,58 324,144 438,259 97,96 170,215 222,355 52,140 78,285 78,434 0,222 -58,429 -174,618 -116,190 -279,341 -489,456 -210,114 -450,171 -720,171 -212,0 -406,-17 -579,-52l0 -29c40,4 100,6 181,6 211,0 407,-37 587,-109 180,-73 325,-186 434,-339 110,-153 164,-346 164,-578 0,-269 -84,-523 -252,-760 -167,-237 -415,-356 -743,-356 -159,0 -299,15 -422,45 -12,76 -27,263 -42,563 -16,299 -23,509 -23,630l0 1348c0,56 4,185 13,383 9,199 17,371 27,516 10,145 23,267 42,364l708 105 -31 34 -2118 0 12 -40 684 -99c21,-158 36,-326 48,-502 12,-178 21,-391 30,-641 8,-250 12,-436 12,-559l0 -678c0,-239 -7,-507 -23,-804 -14,-297 -33,-528 -56,-694l-701 -99 -6 -34zm863 110l0 3924 196 0 0 -3924 -196 0zm1133 -41l-102 0 0 28c213,12 399,73 558,183 160,110 280,252 361,428 81,175 122,364 122,565 0,230 -49,420 -147,570 -98,151 -215,261 -351,328 -136,68 -271,109 -404,122l0 34 50 0c106,0 240,-29 403,-86 163,-58 313,-169 448,-332 136,-164 203,-392 203,-681 0,-179 -36,-358 -110,-537 -73,-179 -196,-327 -369,-445 -172,-118 -393,-177 -662,-177z"/>
+   <g>
+    <g>
+     <g style="clip-path:url(#id0)">
+      <polygon class="fil1" points="6633,6115 -116,4386 -212,4822 "/>
+      <polygon id="1" class="fil2" points="6633,6115 13381,7843 13477,7407 "/>
+      <polygon id="2" class="fil3" points="6633,6115 -212,4822 -281,5264 "/>
+      <polygon id="3" class="fil2" points="6633,6115 13477,7407 13546,6966 "/>
+      <polygon id="4" class="fil4" points="6633,6115 -281,5264 -322,5708 "/>
+      <polygon id="5" class="fil2" points="6633,6115 13546,6966 13587,6521 "/>
+      <polygon id="6" class="fil5" points="6633,6115 -322,5708 -333,6155 "/>
+      <polygon id="7" class="fil2" points="6633,6115 13587,6521 13598,6075 "/>
+      <polygon id="8" class="fil6" points="6633,6115 -333,6155 -316,6601 "/>
+      <polygon id="9" class="fil2" points="6633,6115 13598,6075 13581,5629 "/>
+      <polygon id="10" class="fil7" points="6633,6115 -316,6601 -271,7045 "/>
+      <polygon id="11" class="fil8" points="6633,6115 13581,5629 13536,5184 "/>
+      <polygon id="12" class="fil9" points="6633,6115 -271,7045 -197,7485 "/>
+      <polygon id="13" class="fil8" points="6633,6115 13536,5184 13462,4744 "/>
+      <polygon id="14" class="fil10" points="6633,6115 -197,7485 -95,7920 "/>
+      <polygon id="15" class="fil11" points="6633,6115 13462,4744 13360,4309 "/>
+      <polygon id="16" class="fil12" points="6633,6115 -95,7920 34,8348 "/>
+      <polygon id="17" class="fil13" points="6633,6115 13360,4309 13231,3882 "/>
+      <polygon id="18" class="fil14" points="6633,6115 34,8348 191,8766 "/>
+      <polygon id="19" class="fil15" points="6633,6115 13231,3882 13074,3464 "/>
+      <polygon id="20" class="fil16" points="6633,6115 191,8766 374,9173 "/>
+      <polygon id="21" class="fil17" points="6633,6115 13074,3464 12891,3056 "/>
+      <polygon id="22" class="fil18" points="6633,6115 374,9173 583,9568 "/>
+      <polygon id="23" class="fil19" points="6633,6115 12891,3056 12682,2662 "/>
+      <polygon id="24" class="fil20" points="6633,6115 583,9568 816,9948 "/>
+      <polygon id="25" class="fil21" points="6633,6115 12682,2662 12449,2281 "/>
+      <polygon id="26" class="fil22" points="6633,6115 816,9948 1074,10313 "/>
+      <polygon id="27" class="fil23" points="6633,6115 12449,2281 12191,1916 "/>
+      <polygon id="28" class="fil24" points="6633,6115 1074,10313 1354,10660 "/>
+      <polygon id="29" class="fil25" points="6633,6115 12191,1916 11911,1569 "/>
+      <polygon id="30" class="fil26" points="6633,6115 1354,10660 1656,10989 "/>
+      <polygon id="31" class="fil27" points="6633,6115 11911,1569 11609,1240 "/>
+      <polygon id="32" class="fil28" points="6633,6115 1656,10989 1979,11298 "/>
+      <polygon id="33" class="fil29" points="6633,6115 11609,1240 11286,931 "/>
+      <polygon id="34" class="fil30" points="6633,6115 1979,11298 2321,11586 "/>
+      <polygon id="35" class="fil31" points="6633,6115 11286,931 10944,644 "/>
+      <polygon id="36" class="fil32" points="6633,6115 2321,11586 2680,11851 "/>
+      <polygon id="37" class="fil33" points="6633,6115 10944,644 10585,379 "/>
+      <polygon id="38" class="fil34" points="6633,6115 2680,11851 3056,12092 "/>
+      <polygon id="39" class="fil35" points="6633,6115 10585,379 10209,137 "/>
+      <polygon id="40" class="fil36" points="6633,6115 3056,12092 3446,12309 "/>
+      <polygon id="41" class="fil37" points="6633,6115 10209,137 9819,-80 "/>
+      <polygon id="42" class="fil38" points="6633,6115 3446,12309 3849,12500 "/>
+      <polygon id="43" class="fil39" points="6633,6115 9819,-80 9416,-271 "/>
+      <polygon id="44" class="fil40" points="6633,6115 3849,12500 4264,12666 "/>
+      <polygon id="45" class="fil41" points="6633,6115 9416,-271 9001,-436 "/>
+      <polygon id="46" class="fil42" points="6633,6115 4264,12666 4689,12804 "/>
+      <polygon id="47" class="fil43" points="6633,6115 9001,-436 8576,-575 "/>
+      <polygon id="48" class="fil44" points="6633,6115 4689,12804 5121,12915 "/>
+      <polygon id="49" class="fil45" points="6633,6115 8576,-575 8144,-685 "/>
+      <polygon id="50" class="fil45" points="6633,6115 5121,12915 5560,12998 "/>
+      <polygon id="51" class="fil44" points="6633,6115 8144,-685 7705,-768 "/>
+      <polygon id="52" class="fil43" points="6633,6115 5560,12998 6003,13052 "/>
+      <polygon id="53" class="fil42" points="6633,6115 7705,-768 7262,-823 "/>
+      <polygon id="54" class="fil41" points="6633,6115 6003,13052 6449,13078 "/>
+      <polygon id="55" class="fil40" points="6633,6115 7262,-823 6816,-849 "/>
+      <polygon id="56" class="fil39" points="6633,6115 6449,13078 6896,13076 "/>
+      <polygon id="57" class="fil38" points="6633,6115 6816,-849 6369,-846 "/>
+      <polygon id="58" class="fil37" points="6633,6115 6896,13076 7341,13044 "/>
+      <polygon id="59" class="fil36" points="6633,6115 6369,-846 5924,-815 "/>
+      <polygon id="60" class="fil35" points="6633,6115 7341,13044 7784,12985 "/>
+      <polygon id="61" class="fil34" points="6633,6115 5924,-815 5481,-755 "/>
+      <polygon id="62" class="fil33" points="6633,6115 7784,12985 8221,12897 "/>
+      <polygon id="63" class="fil32" points="6633,6115 5481,-755 5044,-668 "/>
+      <polygon id="64" class="fil31" points="6633,6115 8221,12897 8653,12781 "/>
+      <polygon id="65" class="fil30" points="6633,6115 5044,-668 4612,-552 "/>
+      <polygon id="66" class="fil29" points="6633,6115 8653,12781 9076,12638 "/>
+      <polygon id="67" class="fil28" points="6633,6115 4612,-552 4189,-409 "/>
+      <polygon id="68" class="fil27" points="6633,6115 9076,12638 9489,12468 "/>
+      <polygon id="69" class="fil26" points="6633,6115 4189,-409 3776,-239 "/>
+      <polygon id="70" class="fil25" points="6633,6115 9489,12468 9890,12272 "/>
+      <polygon id="71" class="fil24" points="6633,6115 3776,-239 3375,-43 "/>
+      <polygon id="72" class="fil23" points="6633,6115 9890,12272 10278,12051 "/>
+      <polygon id="73" class="fil22" points="6633,6115 3375,-43 2987,179 "/>
+      <polygon id="74" class="fil21" points="6633,6115 10278,12051 10650,11805 "/>
+      <polygon id="75" class="fil20" points="6633,6115 2987,179 2615,424 "/>
+      <polygon id="76" class="fil19" points="6633,6115 10650,11805 11007,11536 "/>
+      <polygon id="77" class="fil18" points="6633,6115 2615,424 2258,694 "/>
+      <polygon id="78" class="fil17" points="6633,6115 11007,11536 11345,11244 "/>
+      <polygon id="79" class="fil16" points="6633,6115 2258,694 1920,985 "/>
+      <polygon id="80" class="fil15" points="6633,6115 11345,11244 11664,10932 "/>
+      <polygon id="81" class="fil14" points="6633,6115 1920,985 1601,1297 "/>
+      <polygon id="82" class="fil13" points="6633,6115 11664,10932 11962,10600 "/>
+      <polygon id="83" class="fil12" points="6633,6115 1601,1297 1303,1630 "/>
+      <polygon id="84" class="fil11" points="6633,6115 11962,10600 12239,10249 "/>
+      <polygon id="85" class="fil10" points="6633,6115 1303,1630 1026,1980 "/>
+      <polygon id="86" class="fil8" points="6633,6115 12239,10249 12492,9881 "/>
+      <polygon id="87" class="fil9" points="6633,6115 1026,1980 773,2348 "/>
+      <polygon id="88" class="fil8" points="6633,6115 12492,9881 12721,9498 "/>
+      <polygon id="89" class="fil7" points="6633,6115 773,2348 544,2731 "/>
+      <polygon id="90" class="fil2" points="6633,6115 12721,9498 12926,9101 "/>
+      <polygon id="91" class="fil6" points="6633,6115 544,2731 339,3128 "/>
+      <polygon id="92" class="fil2" points="6633,6115 12926,9101 13104,8692 "/>
+      <polygon id="93" class="fil5" points="6633,6115 339,3128 161,3538 "/>
+      <polygon id="94" class="fil2" points="6633,6115 13104,8692 13256,8272 "/>
+      <polygon id="95" class="fil4" points="6633,6115 161,3538 9,3958 "/>
+      <polygon id="96" class="fil2" points="6633,6115 13256,8272 13381,7843 "/>
+      <polygon id="97" class="fil3" points="6633,6115 9,3958 -116,4386 "/>
+     </g>
+    </g>
+    <g>
+     <g style="clip-path:url(#id1)">
+      <image x="624" y="2830" width="6379" height="5610" xlink:href="Безымянный-1_Images\Безымянный-1_ImgID1.png"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
