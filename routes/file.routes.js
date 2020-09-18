@@ -108,7 +108,7 @@ router.post(
 
                     const file = new File({
                         master: masterReq.login,
-                        link: `${config.get('baseUrl')}/files/${hash}`,
+                        link: `${config.get('baseUrl')}/static/files/${hash}`,
                         name: hash,
                         // md5: Date.now(),
                         md5: filesArray[i].md5,
