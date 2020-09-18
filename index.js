@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 // app.use('/uploads', express.static(__dirname, '/uploads'));
 
-app.use(express.static(__dirname + '/uploads'))
+// app.use(express.static(__dirname + '/uploads'))
 app.use(fileUpload())
 
 
@@ -23,8 +23,10 @@ app.use(fileUpload())
 
 app.use('/api/auth', require('./routes/auth.routes'))
 app.use('/api/file', require('./routes/file.routes'))
+
+
 // app.use('/api/test', require('./routes/test.routes'))
-console.log(path.join(__dirname, 'client', 'build'))
+// console.log(path.join(__dirname, 'client', 'build'))
 
 
 // app.use('/', express.static(path.join(__dirname, 'client', 'build')))
@@ -36,8 +38,8 @@ console.log(path.join(__dirname, 'client', 'build'))
 
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, 'client', 'build')))
-    // app.use('/', express.static(path.join(__dirname, 'client', 'build')))
+    // app.use(express.static(path.join(__dirname, 'client', 'build')))
+    app.use('/', express.static(path.join(__dirname, 'client', 'build')))
 
     app.get('*', (req, res) => {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))

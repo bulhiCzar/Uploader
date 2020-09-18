@@ -5,6 +5,7 @@ const shortid = require('shortid')
 const jwt = require('jsonwebtoken')
 const File = require('../models/File')
 const User = require('../models/User')
+const path = require('path')
 
 const router = Router()
 
@@ -94,7 +95,7 @@ router.post(
                     masterLinks.unshift(hash)
                     console.log(masterLinks)
 
-                    filesArray[i].mv(`uploads/files/${filesArray[i].name}`, function (err) {
+                    filesArray[i].mv(path.join(__dirname, 'client', 'build','files',filesArray[i], name), function (err) {
                         if (err) { return res.status(500).json({ message: 'Почему-то не загрузилось. Попробуйте еще раз', type: 'error' }) }
 
 
