@@ -151,7 +151,7 @@ router.get('/:id', auth, async (req, res) => {
     try {
         // console.log(req.params)
         const file = await File.find({ name: req.params.id })
-        console.log(file)
+        // console.log(file)
         res.json(file)
     } catch (error) {
         res.status(500).json({ message: 'Что-то пошло не так... \nПопробуйте позже', type: 'error' })
