@@ -47,7 +47,7 @@ app.use('/', express.static(path.join(__dirname, 'client', 'build')))
 
 
 
-const PORT = config.get('port') || 5000 || process.env.PORT
+const PORT = process.env.PORT || 5000
 
 async function startBD() {
     try {
