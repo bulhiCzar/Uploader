@@ -12,7 +12,7 @@ const app = express()
 app.use(bodyParser.json())
 
 
-// app.use('/uploads/files', express.static('uploads/files'));
+app.use('/uploads', express.static(__dirname, '/uploads'));
 
 // app.use(express.static(__dirname + '/uploads'))
 app.use(fileUpload())
