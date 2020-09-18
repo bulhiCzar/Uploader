@@ -96,7 +96,9 @@ router.post(
                     console.log(masterLinks)
 
                     filesArray[i].mv(`/client/build/files/${filesArray[i].name}`, function (err) {
-                        if (err) { return res.status(500).json({ message: 'Почему-то не загрузилось. Попробуйте еще раз', type: 'error' }) }
+                        if (err) { 
+                            console.log(err)
+                            return res.status(500).json({message: 'Почему-то не загрузилось. Попробуйте еще раз', type: 'error' }) }
 
 
                     })
