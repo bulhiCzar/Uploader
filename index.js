@@ -39,9 +39,9 @@ app.use('/api/file', require('./routes/file.routes'))
 
 if (process.env.NODE_ENV === 'production') {
     // app.use(express.static(path.join(__dirname, 'client', 'build')))
-
+    express.static(`${__dirname}/build`)
     // app.use('/static', express.static(`${__dirname}/uploads/files`))
-    app.use('/static', express.static(`/client/build`))
+    // app.use('/static', express.static(`${__dirname}/client/build`))
     
     // app.use('/', express.static(path.join(__dirname, 'client', 'build')))
 
