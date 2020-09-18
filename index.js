@@ -36,7 +36,7 @@ console.log(path.join(__dirname, 'client', 'build'))
 
 
 if (process.env.NODE_ENV === 'production') {
-    express.static(path.join(__dirname, 'client', 'build'))
+    app.use(express.static(path.join(__dirname, 'client', 'build')))
     // app.use('/', express.static(path.join(__dirname, 'client', 'build')))
 
     app.get('*', (req, res) => {
