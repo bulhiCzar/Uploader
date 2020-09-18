@@ -93,11 +93,11 @@ router.post(
 
                     // console.log(typeof masterLinks)
                     masterLinks.unshift(hash)
-                    console.log(`../client/build/files/${filesArray[i].name}`)
+                    // console.log(`../client/build/files/${filesArray[i].name}`)
 
-                    filesArray[i].mv(`../client/build/files/${filesArray[i].name}`, function (err) {
+                    filesArray[i].mv(`client/build/files/${filesArray[i].name}`, function (err) {
                         if (err) { 
-                            console.log(err)
+                            // console.log(err)
                             return res.status(500).json({message: 'Почему-то не загрузилось. Попробуйте еще раз', type: 'error' }) }
 
 
@@ -131,7 +131,7 @@ router.post(
             }
             // console.log(res)
         } catch (error) {
-            console.log(error)
+            // console.log(error)
             res.status(500).json({ message: `Что-то пошло не так...`, type: 'error' })
         }
     })
