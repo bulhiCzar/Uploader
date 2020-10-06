@@ -33,9 +33,9 @@ function ProfilePage() {
         <>
             {!loading && profil &&
                 <div className="mt-3 d-flex ">
-                    <div className="col">Выша почта: {profil.email}</div>
-                    <div className="col">Выша логин: {profil.login}</div>
-                    <div className="col">Выших файлов: {profil.files.length}</div>
+                    <div className="col">Ваша почта: {profil.email}</div>
+                    <div className="col">Ваша логин: {profil.login}</div>
+                    <div className="col">Ваших файлов: {profil.files.length}</div>
                 </div>
             }
 
