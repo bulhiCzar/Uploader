@@ -41,7 +41,7 @@ if (process.env.NODE_ENV === 'production') {
 
     // express.static(`${__dirname}/build`)
 
-    app.use('/', express.static(`${__dirname}/build`))
+    app.use('/', express.static(`${__dirname}/client/build`))
     
     // app.use('/', express.static(path.join(__dirname, 'client', 'build')))
 
