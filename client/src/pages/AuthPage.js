@@ -208,7 +208,7 @@ function AuthPage() {
                                     }
                                 }
                             />
-                            <label className="form-check-label" htmlFor="CheckRuls">Check rules</label>
+                            {/* <label className="form-check-label" htmlFor="CheckRuls">Check rules</label> */}
                         </div>
 
                         {buttonSingUp ?
