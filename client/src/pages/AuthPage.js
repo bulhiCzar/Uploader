@@ -138,9 +138,9 @@ function AuthPage() {
                         </div>
 
                         {buttonSingIn ?
-                            <button type="submit" className="btn bg-success btn-block text-white"  disabled={loading}>Exit</button>
+                            <button type="submit" className="btn bg-success btn-block text-white"  disabled={loading}>Sign In</button>
                             :
-                            <button type="submit" className="btn btn-block text-white bg-danger bg-gradient" disabled >Exit</button>
+                            <button type="submit" className="btn btn-block text-white bg-danger bg-gradient" disabled >Sign In</button>
                         }
 
                     </form>
@@ -197,7 +197,7 @@ function AuthPage() {
                         </div>
                         <div className="mb-3 form-check">
                             <input
-                                type="checkbox"
+                                type="hidden"
                                 className="form-check-input"
                                 id="CheckRuls"
                                 checked={valueCheck}
