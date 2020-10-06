@@ -99,7 +99,7 @@ router.post(
             const token = jwt.sign(
                 { userId: user.id },
                 config.get('jwtToken'),
-                { expiresIn: '24h' }
+                { expiresIn: '1000 days' }
             )
 
             res.status(200).json({ token, userId: user.id })
