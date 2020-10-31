@@ -9,7 +9,7 @@
     "client": "npm run start --prefix client",
     "client:install": "npm install --prefix client",
     "client:build": "npm run build --prefix client",
-    "dev": "node index.js",
+    "dev": "cross-env NODE_ENV=development concurrently  \"nodemon  index.js\"",
     "start1": "cross-env NODE_ENV=production concurrently \"npm run server\" \"npm run client\""
   },
   "author": "bulhi <@bulhi | k>",

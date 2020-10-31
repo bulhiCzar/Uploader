@@ -67,13 +67,18 @@ router.post(
     async (req, res) => {
         try {
             const masterReq = await User.findOne({ _id: req.user.userId })
+            // console.log(masterReq, ' masterreq')
 
             let masterArrayF = Object.values(masterReq.files)
+            // console.log(masterArrayF, ' masterArrayF')
+
 
             // console.log(masterReq)
 
             let filesObject = req.files
             let filesArray = Object.values(filesObject)
+            // console.log(filesArray, ' filesArray')
+
 
             let i
             let fileAge = 0
@@ -82,6 +87,7 @@ router.post(
             for (i = 0; i < filesArray.length; ++i) {
                 const hash = masterReq.login + '-' + shortid.generate() + '-' + filesArray[i].name
                 const existing = await File.findOne({ md5: filesArray[i].md5 })
+                // const existing = false
 
                 if (existing) {
                     // res.json({ message: 'Этот фаил уже был' })\
@@ -94,9 +100,9 @@ router.post(
 
                     // console.log(typeof masterLinks)
                     masterLinks.unshift(hash)
-                    console.log(masterLinks)
+                    // console.log(masterLinks)
 
-                    filesArray[i].mv(`uploads/files/${filesArray[i].name}`, function (err) {
+                    filesArray[i].mv(`client/build/static/files/${filesArray[i].name}`, function (err) {
                         if (err) { return res.status(500).json({ message: 'Почему-то не загрузилось. Попробуйте еще раз', type: 'error' }) }
 
 
@@ -107,7 +113,7 @@ router.post(
 
                     const file = new File({
                         master: masterReq.login,
-                        link: `${config.get('baseUrl')}/files/${hash}`,
+                        link: `${config.get('baseUrl')}/static/files/${hash}`,
                         name: hash,
                         // md5: Date.now(),
                         md5: filesArray[i].md5,
@@ -118,11 +124,12 @@ router.post(
                     await User.updateOne({ _id: req.user.userId }, { $push: { files: file._id } })
 
                     await file.save()
+                    res.status(201).json({ message: 'Загрузка прошла успешно', type: 'success', failLoad: fileAge })
                 }
             }
 
             // if (fileAge == 0) {
-            res.status(201).json({ message: 'Загрузка прошла успешно', type: 'success', failLoad: fileAge })
+            
                 
             // }else{
             // res.status(402).json({ message: 'Такой фаил уже был загружен ранее', type: 'warning', failLoad: fileAge })
