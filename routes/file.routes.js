@@ -124,12 +124,13 @@ router.post(
                     await User.updateOne({ _id: req.user.userId }, { $push: { files: file._id } })
 
                     await file.save()
-                    res.status(201).json({ message: 'Загрузка прошла успешно', type: 'success', failLoad: fileAge })
+                    // res.status(201).json({ message: 'Загрузка прошла успешно', type: 'success', failLoad: fileAge })
                 }
+                // res.status(201).json({ message: 'Загрузка прошла успешно', type: 'success', failLoad: fileAge })
             }
 
             // if (fileAge == 0) {
-            
+                res.status(201).json({ message: 'Загрузка прошла успешно', type: 'success', failLoad: fileAge })
                 
             // }else{
             // res.status(402).json({ message: 'Такой фаил уже был загружен ранее', type: 'warning', failLoad: fileAge })
