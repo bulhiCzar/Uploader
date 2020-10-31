@@ -94,6 +94,7 @@ router.post(
                     // console.log(existing)
                     fileAge = fileAge + 1
                     res.status(200).json({ message: 'Такой фаил уже был загружен ранее', type: 'warning', failLoad: fileAge })
+                    return
                 } else {
                     filesArray[i].name = hash
 
