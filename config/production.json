@@ -1,6 +1,6 @@
 {
     "port": 5000,
-    "mongoURL": "mongodb+srv://DownloadFilerOnServer:741236@test1.c5zhl.azure.mongodb.net/test2",
+    "mongoURL": "mongodb+srv://DownloadFilerOnServer:741236@test1.c5zhl.azure.mongodb.net/production",
     "jwtToken": "TTeCK62nbSXNu44GIWplQAsWPBSALIm3b5SO",
     "baseUrl": "https://cryptic-wave-36376.herokuapp.com"
 }
