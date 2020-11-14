@@ -8,6 +8,8 @@ const User = require('../models/User')
 const router = Router()
 
 
+
+
 router.get('/profil', auth,  async (req, res) => {
     // console.log(req.body)
 
