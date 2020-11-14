@@ -17,6 +17,8 @@ app.use(bodyParser.json())
 // app.use(express.static(__dirname + '/uploads'))
 app.use(fileUpload())
 
+app.use(allowCrossDomain)
+
 
 
 
