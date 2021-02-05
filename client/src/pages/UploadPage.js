@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, {useContext, useEffect, useRef} from 'react'
 import { useAuth } from '../hooks/auth.hooks'
 import { useHttp } from '../hooks/http.hooks'
 import modalInfo from '../modules/toast/main'
@@ -12,10 +12,7 @@ import { useHistory } from 'react-router-dom'
 function UploadPage() {
     const { error, request, clearError } = useHttp()
     const history = useHistory()
-    // const auth = useContext(AuthContext)
-    // const [image, setImage] = useState('')
-    // const [loading, setLoading] = useState(false)
-    // const [file, setFile] = useState(null)
+    const ref = useRef()
 
     const { token, login, logout, userId } = useAuth()
 
@@ -27,24 +24,14 @@ function UploadPage() {
         const data = new FormData()
 
         for (i = 0; i < files.length; ++i) {
-            // console.log(files[i])
             data.append(`idx${i}`, files[i])
         }
 
-        // data.append('token', token)
 
-        // setLoading(true)
-        // console.log(files)
+        const name = ref.current.value
 
-        // console.log(data.values())
-        // // const res = await fetch('api/file/upload', { method: 'POST', body: data })
-        // // const res = await request('api/file/upload', 'POST', data, {token})
-        // const res = await fetch('api/file/test', { method: 'POST', body: data, headers: { 'Content-Type': 'multipart/form-data' } })
-        // const res = await fetch('api/file/test', { method: 'POST', body: data })
-        // const res = await request('api/file/test', 'POST', data, { 'Content-Type': 'multipart/form-data' })
-        // const res = await request('api/file/test', 'POST', data, false)
-        const res = await request('api/file/upload', 'POST', data, false, { authorization: `Bearer ${token}` })
-        // const res = await fetch('api/test/test', { method: 'POST', body: data, headers: { 'Content-Type': 'multipart/form-data' } })
+
+        const res = await request(`api/file/upload/${name}`, 'POST', data, false, { authorization: `Bearer ${token}` })
 
         if (res.type === 'success') {
             history.push('/files/')
@@ -53,11 +40,6 @@ function UploadPage() {
         console.log(res)
 
         modalInfo(res)
-        // if (res.failLoad > 0) {
-        //     alert(res.failLoad + " файлов уже было загружено")
-        // }
-
-
     }
     useEffect(() => {
 
@@ -81,6 +63,7 @@ function UploadPage() {
                 <label htmlFor="file" class="btn-3">
                     <span>Выберите файлы</span>
                 </label>
+                <input type="text" ref={ref} placeholder='название файла'/>
                 <input type="submit" name="send"  className="button-upload" />
                 
             </form>

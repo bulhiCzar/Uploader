@@ -6,6 +6,7 @@ const fileUpload = require('express-fileupload')
 const bodyParser = require("body-parser")
 
 const app = express()
+require('dotenv').config();
 
 var allowCrossDomain = function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
@@ -40,6 +41,7 @@ app.use(allowCrossDomain)
 app.use('/api/auth', require('./routes/auth.routes'))
 app.use('/api/file', require('./routes/file.routes'))
 
+// console.log(process.env)
 
 // app.use('/api/test', require('./routes/test.routes'))
 // console.log(path.join(__dirname, 'client', 'build'))

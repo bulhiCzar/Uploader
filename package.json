@@ -15,11 +15,13 @@
   "author": "bulhi <@bulhi | k>",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.839.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "concurrently": "^5.3.0",
     "config": "^3.3.1",
     "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-fileupload": "^1.2.0",
     "express-validator": "^6.6.1",
