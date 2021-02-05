@@ -32,6 +32,7 @@ app.use(fileUpload())
 app.use('/api/auth', require('./routes/auth.routes'))
 app.use('/api/file', require('./routes/file.routes'))
 app.use('/', express.static(`${__dirname}/client/build`))
+app.use('*', express.static(`${__dirname}/client/build`))
 
 
 const PORT = process.env.PORT || 5000
