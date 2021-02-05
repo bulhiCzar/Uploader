@@ -76,7 +76,9 @@ router.post(
     async (req, res) => {
         try {
             const masterReq = await User.findOne({_id: req.user.userId})
-            const {name} = req.params
+            let {name} = req.params
+
+            name = !name && Date.now()
 
             let filesObject = req.files
             let filesArray = Object.values(filesObject)
@@ -89,11 +91,7 @@ router.post(
 
                 const exe = filesArray[i].name.split('.')[1]
                 const Key = name+'.'+exe
-                // console.log(exe)
-                // console.log(name)
-                // console.log(Key)
-                // console.log(filesArray[i])
-                // throw new Error()
+
 
                 const buf = filesArray[i].data
                 const params = {
