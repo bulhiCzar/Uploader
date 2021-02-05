@@ -35,7 +35,7 @@ function UploadPage() {
         }
 
 
-        const res = await request(`api/file/upload/${name}`, 'POST', data, false, { authorization: `Bearer ${token}` })
+        const res = await request(`/api/file/upload/${name}`, 'POST', data, false, { authorization: `Bearer ${token}` })
 
         if (res.type === 'success') {
             history.push('/files/')
