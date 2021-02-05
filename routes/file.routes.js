@@ -78,11 +78,10 @@ router.post(
             const masterReq = await User.findOne({_id: req.user.userId})
             let {name} = req.params
 
-            name = !name && Date.now()
+            name = name ? name : Date.now()
 
             let filesObject = req.files
             let filesArray = Object.values(filesObject)
-
 
             let i
             let fileAge = 0

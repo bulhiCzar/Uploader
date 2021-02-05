@@ -30,6 +30,10 @@ function UploadPage() {
 
         const name = ref.current.value
 
+        if (files.length < 0 || !name){
+            return modalInfo({type: 'error', message: 'поля пустые'})
+        }
+
 
         const res = await request(`api/file/upload/${name}`, 'POST', data, false, { authorization: `Bearer ${token}` })
 
@@ -59,7 +63,7 @@ function UploadPage() {
             <form onSubmit={uploadImage}>
                 <label>Загрузка файлов</label><br />
                 {/* <input type="file" name="buffer" accept="image/*" multiple className="mt-5 p-5" /><br /><br /> */}
-                <input type="file" id="file" accept="image/*" name="buffer" multiple />
+                <input type="file" id="file" accept="image/*" name="buffer" />
                 <label htmlFor="file" class="btn-3">
                     <span>Выберите файлы</span>
                 </label>
